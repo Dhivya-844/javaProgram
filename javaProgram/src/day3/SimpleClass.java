@@ -14,7 +14,7 @@ public class SimpleClass {
 	return name;
 	}
 	public void setName(String name) {
-	this.name = name;
+		this.name = name;
 	}
 	public int getAge() {
 	return age;
@@ -22,9 +22,10 @@ public class SimpleClass {
 	public void setAge(int age) {
 	this.age = age;
 	}
-	// Object class method - to returns string representation of the object
-	@Override
-	public String toString() {
-	return "OopsConceptDemo [Serial Number=" + serialNum + ", name=" + name + ", age=" + age + "]";
-	}
+
+//Object class method - to returns string representation of the object
+@Override
+public String toString() {
+return "OopsConceptDemo [Serial Number=" + serialNum + ", name=" + name + ", age=" + age + "]";
+}
 }
